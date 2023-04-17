@@ -56,6 +56,46 @@ header a {
   font-size: 16px;
 }
 
+.aboutrmgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  color: var(--dark-indigo);
+  background: var(--light-indigo);
+}
+.aboutrmgrid img {
+  max-width: 100%;
+}
+.aboutimg {
+  display: flex;
+  align-items: center;
+}
+.aboutinfosection {
+  color: var(--dark-indigo);
+
+  padding: 100px 50px 50px;
+}
+
+.aboutinfosection h3 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 13px;
+  line-height: 1.2;
+  margin: 0;
+}
+.aboutinfosection h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 1.3;
+}
+
+.aboutinfosection p {
+  color: var(--mid-indigo);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .fullcontainer {
   max-width: 1200px;
   margin: 0 auto;
@@ -104,7 +144,7 @@ footer p {
   line-height: 1.3;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   header {
     padding: 80px 20px 80px;
   }
@@ -120,6 +160,36 @@ footer p {
   header h3 {
     font-size: 15px;
     line-height: 1;
+  }
+
+  .aboutrmgrid {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutinfosection {
+    color: var(--dark-indigo);
+
+    padding: 50px 20px 20px;
+  }
+
+  .aboutinfosection h3 {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    line-height: 1;
+    margin: 0;
+  }
+  .aboutinfosection h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .aboutinfosection p {
+    color: var(--mid-indigo);
+    font-size: 14px;
+    line-height: 1.1;
   }
 
   .footgrid {
