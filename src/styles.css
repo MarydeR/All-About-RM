@@ -279,6 +279,21 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .cardsection h3 {
+    padding-top: 50px;
+  }
+  .cardsection h2 {
+    font-size: 40px;
+  }
+  .cardgridcontainer {
+    padding: 50px 20px;
+  }
+
+  .card p {
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--dark-indigo);
+  }
   .footgrid {
     grid-template-columns: 1fr;
   }
