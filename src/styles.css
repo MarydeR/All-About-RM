@@ -1,8 +1,59 @@
+:root {
+  --dark-indigo: #114378;
+  --mid-indigo: #16538c;
+  --light-indigo: #bad7e1;
+}
 body {
-  font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/indigo1b.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--light-indigo);
+  padding: 280px 20px 280px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+header h1 {
+  display: block;
+  margin: 0 auto;
   font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 170px;
+  margin: 0;
+}
+
+header h2 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
+  padding-bottom: 32px;
+  margin: 0;
+}
+
+header h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  color: var(--light-indigo);
+  text-decoration: none;
+  padding: 16px 32px;
+  background: var(--mid-indigo);
+  border-radius: 100px;
+}
+
+.fullcontainer {
+  max-width: 1200px;
+  margin: 0 auto;
 }
