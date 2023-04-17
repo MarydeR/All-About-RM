@@ -121,4 +121,8 @@ footer p {
     font-size: 15px;
     line-height: 1;
   }
+
+  .footgrid {
+    grid-template-columns: 1fr;
+  }
 }
