@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--dark-indigo);
 }
 
 header {
@@ -51,9 +52,29 @@ header a {
   padding: 16px 32px;
   background: var(--mid-indigo);
   border-radius: 100px;
+  font-size: 16px;
 }
 
 .fullcontainer {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 80px 20px 80px;
+  }
+
+  header h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+  header h2 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  header h3 {
+    font-size: 15px;
+    line-height: 1;
+  }
 }
